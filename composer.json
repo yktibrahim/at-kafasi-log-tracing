@@ -1,0 +1,23 @@
+{
+  "name": "at_kafasi/log-tracing",
+  "description": "Log tracing laravel microservices",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AtKafasi\\LogTracing\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "İbrahim Yakut"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AtKafasi\\LogTracing\\LogTracingServiceProvider"
+      ]
+    }
+  }
+}
