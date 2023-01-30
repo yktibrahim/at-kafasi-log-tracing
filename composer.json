@@ -2,6 +2,7 @@
   "name": "at_kafasi/log-tracing",
   "description": "Log tracing laravel microservices",
   "license": "MIT",
+  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "AtKafasi\\LogTracing\\": "src/"
